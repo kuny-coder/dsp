@@ -1,0 +1,6 @@
+This is the implementation of the algorithm in Paper Density Estimation via Discrepancy Based Adaptive Sequential Partition
+: https://papers.nips.cc/paper/2016/hash/185c29dc24325934ee377cfda20e414c-Abstract.html.
+
+There is a typo in line 7, Algorithm 1 of the paper: each sample should be scaled by the size of each dim as x_{il} = (x_{il} - a_{i}) / (b_{i} - a_{i}) (in the paper, it's b_{i}).
+
+Beside the cpp code that generates the partitions, a R function to draw the rectangles is provide, however, the colormap should be improved.
